@@ -4,7 +4,7 @@ app=FastAPI(title="CI/CD Demo API")
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to CI/CD Practical"}
+    return {"message": "Wrong Message"}
 
 @app.get("/users")
 def get_users():
